@@ -1,5 +1,15 @@
 from __future__ import print_function
-
+# 必须放在文件最顶部，确保在导入datasets之前生效
+import sys, os
+# # 将项目根目录（ReIQA）添加到Python搜索路径
+# project_root = os.path.dirname(os.path.abspath(__file__))
+# if project_root not in sys.path:
+#     sys.path.insert(0, project_root)
+# # 打印路径验证（可选，但建议加，确认是否生效）
+# print("当前Python搜索路径（sys.path）：")
+# for path in sys.path:
+#     print(path)
+# print("\n当前脚本所在目录：", project_root)
 import torch
 import torch.nn as nn
 import torch.utils.data.distributed

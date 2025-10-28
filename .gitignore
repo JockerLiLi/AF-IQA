@@ -1,0 +1,15 @@
+# 忽略 train_data 文件夹内的所有内容，但保留空文件夹
+/train_data/*
+!/train_data/.gitkeep
+
+# 忽略 koniq_data 文件夹内的所有内容，但保留空文件夹
+/koniq_data/*
+!/koniq_data/.gitkeep
+
+# 忽略 reiqa_ckpts 文件夹内的所有内容，但保留空文件夹
+/reiqa_ckpts/*
+!/reiqa_ckpts/.gitkeep
+
+# 忽略指定文件
+/koniq_features_reiqa.npz
+/reiqa_ridge_koniq.pkl
